@@ -1,20 +1,23 @@
 # challenge
 Wenance challenge
 
-La aplicacion esta hecha en springboot con webflux y maven, utilizo el @Shedulle
+La aplicacion esta hecha en springboot con webflux y maven
 
 #Ejecutar aplicacion en entorno local
 
 #Con maven instalado
+
     - Clonar repositorio
     - Ejecutar el siguinte comando en la consola: mvn clean install
     - Se creara una carpeta target, en la misma esta el jar a ejecutar: java -jar challenge-0.0.1.jar
 
 #Sin maven
+
     - Clonar el tag ejecutar, en la misma se encuentra el archivo jar a ejecutar: java -jar challenge-0.0.1.jar
 
 
 ##Tareas
+
     1. Obtener el precio del Bitcoin en cierto Timestamp
     
         Las pruebas las realizo desde postman -> http://localhost/api/price/{timeStamp}
@@ -27,7 +30,7 @@ La aplicacion esta hecha en springboot con webflux y maven, utilizo el @Shedulle
             "date": "2021-08-31T10:58:13.2375436"
         }
         
-        Solucion: devuelvo el dato que obtengo luego de filtrar por el timeStamp 
+        Solucion: devuelvo el dato que obtengo luego de filtrar por el timeStamp.
 
 
     2. Conocer el promedio de valor entre dos Timestamps así como la diferencia porcentual entre 
