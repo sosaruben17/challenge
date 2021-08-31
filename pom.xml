@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.wenance</groupId>
 	<artifactId>challenge</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>challenge</name>
 	<description>Wenance challenge project for Spring Boot</description>
 	<properties>
